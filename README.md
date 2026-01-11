@@ -46,17 +46,9 @@ SOURCE database.sql;
 http://localhost/employee-salary-tracking-system
 ```
 
-## Kullanım
-
-[Kullanım talimatları eklenecek]
-
 ## Lisans
 
 Bu proje kişisel kullanım içindir.
-
-## Geliştirici
-
-- **Yusuf** - [Cankinali](https://github.com/Cankinali)
 
 ## İletişim
 
