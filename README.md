@@ -1,43 +1,63 @@
-Employee Salary Tracking System (ESTS)
+# Employee Salary Tracking System (ESTS)
+
 PHP ve MySQL tabanlı çalışan maaş takip sistemi.
-Özellikler
 
-Çalışan bilgilerini yönetme
-Maaş kayıtlarını takip etme
-Raporlama ve analiz
-Kullanıcı dostu arayüz
+## Özellikler
 
-Teknolojiler
+- Çalışan bilgilerini yönetme
+- Maaş kayıtlarını takip etme
+- Raporlama ve analiz
+- Kullanıcı dostu arayüz
 
-Backend: PHP
-Database: MySQL/SQL
-Frontend: HTML, CSS, JavaScript
+## Teknolojiler
 
-Kurulum
-Gereksinimler
+- **Backend:** PHP
+- **Database:** MySQL/SQL
+- **Frontend:** HTML, CSS, JavaScript
 
-PHP 7.4 veya üzeri
-MySQL 5.7 veya üzeri
-Apache/Nginx web sunucusu
+## Kurulum
 
-Adımlar
+### Gereksinimler
 
-Projeyi klonlayın:
+- PHP 7.4 veya üzeri
+- MySQL 5.7 veya üzeri
+- Apache/Nginx web sunucusu
 
-bashgit clone https://github.com/Cankinali/employee-salary-tracking-system.git
+### Adımlar
 
-Veritabanını oluşturun ve import edin:
+1. Projeyi klonlayın:
+```bash
+git clone https://github.com/Cankinali/employee-salary-tracking-system.git
+```
 
-sqlCREATE DATABASE ests_db;
+2. Veritabanını oluşturun ve import edin:
+```sql
+CREATE DATABASE ests_db;
 USE ests_db;
 SOURCE database.sql;
+```
 
-Veritabanı bağlantı ayarlarını yapılandırın:
+3. Veritabanı bağlantı ayarlarını yapılandırın:
+   - `config.php` dosyasını düzenleyin
+   - Veritabanı bilgilerinizi girin
 
-config.php dosyasını düzenleyin
-Veritabanı bilgilerinizi girin
-
-
-Web sunucunuzu başlatın ve tarayıcıda açın:
-
+4. Web sunucunuzu başlatın ve tarayıcıda açın:
+```
 http://localhost/employee-salary-tracking-system
+```
+
+## Kullanım
+
+[Kullanım talimatları eklenecek]
+
+## Lisans
+
+Bu proje kişisel kullanım içindir.
+
+## Geliştirici
+
+- **Yusuf** - [Cankinali](https://github.com/Cankinali)
+
+## İletişim
+
+Sorularınız için GitHub Issues kullanabilirsiniz.
